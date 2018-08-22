@@ -1,0 +1,47 @@
+body { background-color: #e3e3e3 }
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+#notes {
+  float: right;
+  width: 30%;
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: #e3e3e3;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 3px;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+  
+}
+a {
+    font-size: 22px;
+    color: black; 
+}
+
+.comment {
+  width: 125px;
+  height: 35px;
+  padding: 10px;
+  background-color: black;
+  color: #e3e3e3;
+  border-radius: 10px;
+}
